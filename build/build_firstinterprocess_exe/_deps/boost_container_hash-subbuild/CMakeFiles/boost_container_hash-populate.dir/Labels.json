@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_firstinterprocess_exe/_deps/boost_container_hash-subbuild/CMakeFiles/boost_container_hash-populate"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_firstinterprocess_exe/_deps/boost_container_hash-subbuild/CMakeFiles/boost_container_hash-populate.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_firstinterprocess_exe/_deps/boost_container_hash-subbuild/CMakeFiles/boost_container_hash-populate-complete.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_firstinterprocess_exe/_deps/boost_container_hash-subbuild/boost_container_hash-populate-prefix/src/boost_container_hash-populate-stamp/boost_container_hash-populate-build.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_firstinterprocess_exe/_deps/boost_container_hash-subbuild/boost_container_hash-populate-prefix/src/boost_container_hash-populate-stamp/boost_container_hash-populate-configure.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_firstinterprocess_exe/_deps/boost_container_hash-subbuild/boost_container_hash-populate-prefix/src/boost_container_hash-populate-stamp/boost_container_hash-populate-download.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_firstinterprocess_exe/_deps/boost_container_hash-subbuild/boost_container_hash-populate-prefix/src/boost_container_hash-populate-stamp/boost_container_hash-populate-install.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_firstinterprocess_exe/_deps/boost_container_hash-subbuild/boost_container_hash-populate-prefix/src/boost_container_hash-populate-stamp/boost_container_hash-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_firstinterprocess_exe/_deps/boost_container_hash-subbuild/boost_container_hash-populate-prefix/src/boost_container_hash-populate-stamp/boost_container_hash-populate-patch.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_firstinterprocess_exe/_deps/boost_container_hash-subbuild/boost_container_hash-populate-prefix/src/boost_container_hash-populate-stamp/boost_container_hash-populate-test.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_firstinterprocess_exe/_deps/boost_container_hash-subbuild/boost_container_hash-populate-prefix/src/boost_container_hash-populate-stamp/boost_container_hash-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"boost_container_hash-populate"
+		],
+		"name" : "boost_container_hash-populate"
+	}
+}

@@ -1,0 +1,3 @@
+/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_executable/_deps/mynoteslibraries-subbuild/CMakeFiles/mynoteslibraries-populate.dir
+/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_executable/_deps/mynoteslibraries-subbuild/CMakeFiles/edit_cache.dir
+/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_executable/_deps/mynoteslibraries-subbuild/CMakeFiles/rebuild_cache.dir

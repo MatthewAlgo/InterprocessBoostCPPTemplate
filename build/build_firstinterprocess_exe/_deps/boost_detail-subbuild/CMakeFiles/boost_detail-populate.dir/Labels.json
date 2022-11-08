@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_firstinterprocess_exe/_deps/boost_detail-subbuild/CMakeFiles/boost_detail-populate"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_firstinterprocess_exe/_deps/boost_detail-subbuild/CMakeFiles/boost_detail-populate.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_firstinterprocess_exe/_deps/boost_detail-subbuild/CMakeFiles/boost_detail-populate-complete.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_firstinterprocess_exe/_deps/boost_detail-subbuild/boost_detail-populate-prefix/src/boost_detail-populate-stamp/boost_detail-populate-build.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_firstinterprocess_exe/_deps/boost_detail-subbuild/boost_detail-populate-prefix/src/boost_detail-populate-stamp/boost_detail-populate-configure.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_firstinterprocess_exe/_deps/boost_detail-subbuild/boost_detail-populate-prefix/src/boost_detail-populate-stamp/boost_detail-populate-download.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_firstinterprocess_exe/_deps/boost_detail-subbuild/boost_detail-populate-prefix/src/boost_detail-populate-stamp/boost_detail-populate-install.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_firstinterprocess_exe/_deps/boost_detail-subbuild/boost_detail-populate-prefix/src/boost_detail-populate-stamp/boost_detail-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_firstinterprocess_exe/_deps/boost_detail-subbuild/boost_detail-populate-prefix/src/boost_detail-populate-stamp/boost_detail-populate-patch.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_firstinterprocess_exe/_deps/boost_detail-subbuild/boost_detail-populate-prefix/src/boost_detail-populate-stamp/boost_detail-populate-test.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_firstinterprocess_exe/_deps/boost_detail-subbuild/boost_detail-populate-prefix/src/boost_detail-populate-stamp/boost_detail-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"boost_detail-populate"
+		],
+		"name" : "boost_detail-populate"
+	}
+}

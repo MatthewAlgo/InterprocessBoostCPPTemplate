@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_static_assert-subbuild/CMakeFiles/boost_static_assert-populate"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_static_assert-subbuild/CMakeFiles/boost_static_assert-populate.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_static_assert-subbuild/CMakeFiles/boost_static_assert-populate-complete.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_static_assert-subbuild/boost_static_assert-populate-prefix/src/boost_static_assert-populate-stamp/boost_static_assert-populate-build.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_static_assert-subbuild/boost_static_assert-populate-prefix/src/boost_static_assert-populate-stamp/boost_static_assert-populate-configure.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_static_assert-subbuild/boost_static_assert-populate-prefix/src/boost_static_assert-populate-stamp/boost_static_assert-populate-download.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_static_assert-subbuild/boost_static_assert-populate-prefix/src/boost_static_assert-populate-stamp/boost_static_assert-populate-install.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_static_assert-subbuild/boost_static_assert-populate-prefix/src/boost_static_assert-populate-stamp/boost_static_assert-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_static_assert-subbuild/boost_static_assert-populate-prefix/src/boost_static_assert-populate-stamp/boost_static_assert-populate-patch.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_static_assert-subbuild/boost_static_assert-populate-prefix/src/boost_static_assert-populate-stamp/boost_static_assert-populate-test.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_static_assert-subbuild/boost_static_assert-populate-prefix/src/boost_static_assert-populate-stamp/boost_static_assert-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"boost_static_assert-populate"
+		],
+		"name" : "boost_static_assert-populate"
+	}
+}

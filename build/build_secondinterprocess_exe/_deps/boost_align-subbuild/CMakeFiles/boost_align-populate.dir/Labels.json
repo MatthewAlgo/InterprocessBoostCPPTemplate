@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_align-subbuild/CMakeFiles/boost_align-populate"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_align-subbuild/CMakeFiles/boost_align-populate.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_align-subbuild/CMakeFiles/boost_align-populate-complete.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_align-subbuild/boost_align-populate-prefix/src/boost_align-populate-stamp/boost_align-populate-build.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_align-subbuild/boost_align-populate-prefix/src/boost_align-populate-stamp/boost_align-populate-configure.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_align-subbuild/boost_align-populate-prefix/src/boost_align-populate-stamp/boost_align-populate-download.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_align-subbuild/boost_align-populate-prefix/src/boost_align-populate-stamp/boost_align-populate-install.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_align-subbuild/boost_align-populate-prefix/src/boost_align-populate-stamp/boost_align-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_align-subbuild/boost_align-populate-prefix/src/boost_align-populate-stamp/boost_align-populate-patch.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_align-subbuild/boost_align-populate-prefix/src/boost_align-populate-stamp/boost_align-populate-test.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_align-subbuild/boost_align-populate-prefix/src/boost_align-populate-stamp/boost_align-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"boost_align-populate"
+		],
+		"name" : "boost_align-populate"
+	}
+}

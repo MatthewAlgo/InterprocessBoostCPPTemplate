@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_executable/_deps/boost_interprocess-subbuild/CMakeFiles/boost_interprocess-populate"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_executable/_deps/boost_interprocess-subbuild/CMakeFiles/boost_interprocess-populate.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_executable/_deps/boost_interprocess-subbuild/CMakeFiles/boost_interprocess-populate-complete.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_executable/_deps/boost_interprocess-subbuild/boost_interprocess-populate-prefix/src/boost_interprocess-populate-stamp/boost_interprocess-populate-build.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_executable/_deps/boost_interprocess-subbuild/boost_interprocess-populate-prefix/src/boost_interprocess-populate-stamp/boost_interprocess-populate-configure.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_executable/_deps/boost_interprocess-subbuild/boost_interprocess-populate-prefix/src/boost_interprocess-populate-stamp/boost_interprocess-populate-download.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_executable/_deps/boost_interprocess-subbuild/boost_interprocess-populate-prefix/src/boost_interprocess-populate-stamp/boost_interprocess-populate-install.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_executable/_deps/boost_interprocess-subbuild/boost_interprocess-populate-prefix/src/boost_interprocess-populate-stamp/boost_interprocess-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_executable/_deps/boost_interprocess-subbuild/boost_interprocess-populate-prefix/src/boost_interprocess-populate-stamp/boost_interprocess-populate-patch.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_executable/_deps/boost_interprocess-subbuild/boost_interprocess-populate-prefix/src/boost_interprocess-populate-stamp/boost_interprocess-populate-test.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_executable/_deps/boost_interprocess-subbuild/boost_interprocess-populate-prefix/src/boost_interprocess-populate-stamp/boost_interprocess-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"boost_interprocess-populate"
+		],
+		"name" : "boost_interprocess-populate"
+	}
+}

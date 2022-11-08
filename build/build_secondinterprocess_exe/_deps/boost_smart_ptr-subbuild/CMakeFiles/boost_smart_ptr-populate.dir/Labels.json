@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_smart_ptr-subbuild/CMakeFiles/boost_smart_ptr-populate"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_smart_ptr-subbuild/CMakeFiles/boost_smart_ptr-populate.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_smart_ptr-subbuild/CMakeFiles/boost_smart_ptr-populate-complete.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_smart_ptr-subbuild/boost_smart_ptr-populate-prefix/src/boost_smart_ptr-populate-stamp/boost_smart_ptr-populate-build.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_smart_ptr-subbuild/boost_smart_ptr-populate-prefix/src/boost_smart_ptr-populate-stamp/boost_smart_ptr-populate-configure.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_smart_ptr-subbuild/boost_smart_ptr-populate-prefix/src/boost_smart_ptr-populate-stamp/boost_smart_ptr-populate-download.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_smart_ptr-subbuild/boost_smart_ptr-populate-prefix/src/boost_smart_ptr-populate-stamp/boost_smart_ptr-populate-install.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_smart_ptr-subbuild/boost_smart_ptr-populate-prefix/src/boost_smart_ptr-populate-stamp/boost_smart_ptr-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_smart_ptr-subbuild/boost_smart_ptr-populate-prefix/src/boost_smart_ptr-populate-stamp/boost_smart_ptr-populate-patch.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_smart_ptr-subbuild/boost_smart_ptr-populate-prefix/src/boost_smart_ptr-populate-stamp/boost_smart_ptr-populate-test.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_smart_ptr-subbuild/boost_smart_ptr-populate-prefix/src/boost_smart_ptr-populate-stamp/boost_smart_ptr-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"boost_smart_ptr-populate"
+		],
+		"name" : "boost_smart_ptr-populate"
+	}
+}

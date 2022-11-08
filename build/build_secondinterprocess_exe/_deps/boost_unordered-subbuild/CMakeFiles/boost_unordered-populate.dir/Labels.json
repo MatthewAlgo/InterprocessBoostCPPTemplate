@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_unordered-subbuild/CMakeFiles/boost_unordered-populate"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_unordered-subbuild/CMakeFiles/boost_unordered-populate.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_unordered-subbuild/CMakeFiles/boost_unordered-populate-complete.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_unordered-subbuild/boost_unordered-populate-prefix/src/boost_unordered-populate-stamp/boost_unordered-populate-build.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_unordered-subbuild/boost_unordered-populate-prefix/src/boost_unordered-populate-stamp/boost_unordered-populate-configure.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_unordered-subbuild/boost_unordered-populate-prefix/src/boost_unordered-populate-stamp/boost_unordered-populate-download.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_unordered-subbuild/boost_unordered-populate-prefix/src/boost_unordered-populate-stamp/boost_unordered-populate-install.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_unordered-subbuild/boost_unordered-populate-prefix/src/boost_unordered-populate-stamp/boost_unordered-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_unordered-subbuild/boost_unordered-populate-prefix/src/boost_unordered-populate-stamp/boost_unordered-populate-patch.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_unordered-subbuild/boost_unordered-populate-prefix/src/boost_unordered-populate-stamp/boost_unordered-populate-test.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_unordered-subbuild/boost_unordered-populate-prefix/src/boost_unordered-populate-stamp/boost_unordered-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"boost_unordered-populate"
+		],
+		"name" : "boost_unordered-populate"
+	}
+}

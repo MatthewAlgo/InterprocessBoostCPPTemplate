@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_predef-subbuild/CMakeFiles/boost_predef-populate"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_predef-subbuild/CMakeFiles/boost_predef-populate.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_predef-subbuild/CMakeFiles/boost_predef-populate-complete.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_predef-subbuild/boost_predef-populate-prefix/src/boost_predef-populate-stamp/boost_predef-populate-build.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_predef-subbuild/boost_predef-populate-prefix/src/boost_predef-populate-stamp/boost_predef-populate-configure.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_predef-subbuild/boost_predef-populate-prefix/src/boost_predef-populate-stamp/boost_predef-populate-download.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_predef-subbuild/boost_predef-populate-prefix/src/boost_predef-populate-stamp/boost_predef-populate-install.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_predef-subbuild/boost_predef-populate-prefix/src/boost_predef-populate-stamp/boost_predef-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_predef-subbuild/boost_predef-populate-prefix/src/boost_predef-populate-stamp/boost_predef-populate-patch.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_predef-subbuild/boost_predef-populate-prefix/src/boost_predef-populate-stamp/boost_predef-populate-test.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_predef-subbuild/boost_predef-populate-prefix/src/boost_predef-populate-stamp/boost_predef-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"boost_predef-populate"
+		],
+		"name" : "boost_predef-populate"
+	}
+}

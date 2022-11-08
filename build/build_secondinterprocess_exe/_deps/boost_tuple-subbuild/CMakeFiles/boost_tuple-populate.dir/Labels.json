@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_tuple-subbuild/CMakeFiles/boost_tuple-populate"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_tuple-subbuild/CMakeFiles/boost_tuple-populate.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_tuple-subbuild/CMakeFiles/boost_tuple-populate-complete.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_tuple-subbuild/boost_tuple-populate-prefix/src/boost_tuple-populate-stamp/boost_tuple-populate-build.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_tuple-subbuild/boost_tuple-populate-prefix/src/boost_tuple-populate-stamp/boost_tuple-populate-configure.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_tuple-subbuild/boost_tuple-populate-prefix/src/boost_tuple-populate-stamp/boost_tuple-populate-download.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_tuple-subbuild/boost_tuple-populate-prefix/src/boost_tuple-populate-stamp/boost_tuple-populate-install.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_tuple-subbuild/boost_tuple-populate-prefix/src/boost_tuple-populate-stamp/boost_tuple-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_tuple-subbuild/boost_tuple-populate-prefix/src/boost_tuple-populate-stamp/boost_tuple-populate-patch.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_tuple-subbuild/boost_tuple-populate-prefix/src/boost_tuple-populate-stamp/boost_tuple-populate-test.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_secondinterprocess_exe/_deps/boost_tuple-subbuild/boost_tuple-populate-prefix/src/boost_tuple-populate-stamp/boost_tuple-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"boost_tuple-populate"
+		],
+		"name" : "boost_tuple-populate"
+	}
+}

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_firstinterprocess_exe/_deps/boost_preprocessor-subbuild/CMakeFiles/boost_preprocessor-populate"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_firstinterprocess_exe/_deps/boost_preprocessor-subbuild/CMakeFiles/boost_preprocessor-populate.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_firstinterprocess_exe/_deps/boost_preprocessor-subbuild/CMakeFiles/boost_preprocessor-populate-complete.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_firstinterprocess_exe/_deps/boost_preprocessor-subbuild/boost_preprocessor-populate-prefix/src/boost_preprocessor-populate-stamp/boost_preprocessor-populate-build.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_firstinterprocess_exe/_deps/boost_preprocessor-subbuild/boost_preprocessor-populate-prefix/src/boost_preprocessor-populate-stamp/boost_preprocessor-populate-configure.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_firstinterprocess_exe/_deps/boost_preprocessor-subbuild/boost_preprocessor-populate-prefix/src/boost_preprocessor-populate-stamp/boost_preprocessor-populate-download.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_firstinterprocess_exe/_deps/boost_preprocessor-subbuild/boost_preprocessor-populate-prefix/src/boost_preprocessor-populate-stamp/boost_preprocessor-populate-install.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_firstinterprocess_exe/_deps/boost_preprocessor-subbuild/boost_preprocessor-populate-prefix/src/boost_preprocessor-populate-stamp/boost_preprocessor-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_firstinterprocess_exe/_deps/boost_preprocessor-subbuild/boost_preprocessor-populate-prefix/src/boost_preprocessor-populate-stamp/boost_preprocessor-populate-patch.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_firstinterprocess_exe/_deps/boost_preprocessor-subbuild/boost_preprocessor-populate-prefix/src/boost_preprocessor-populate-stamp/boost_preprocessor-populate-test.rule"
+		},
+		{
+			"file" : "/home/matthewalgo/Projects/VSCode/CppBuildSystem/build/build_firstinterprocess_exe/_deps/boost_preprocessor-subbuild/boost_preprocessor-populate-prefix/src/boost_preprocessor-populate-stamp/boost_preprocessor-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"boost_preprocessor-populate"
+		],
+		"name" : "boost_preprocessor-populate"
+	}
+}
