@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/MyNotesExecutable.dir/source/main.cpp.o -o MyNotes  _deps/mynoteslibraries-build/libMyNotesLibraries.a _deps/boost_container-build/libboost_container.a 

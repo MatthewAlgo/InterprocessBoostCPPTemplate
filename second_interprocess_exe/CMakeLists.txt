@@ -204,6 +204,20 @@ CPMAddPackage(
     OPTIONS
 )
 
+CPMAddPackage(
+  NAME sfml
+  GITHUB_REPOSITORY SFML/SFML
+  GIT_TAG 2.5.x
+)
+set(SFML_STATIC_LIBRARIES TRUE) # To use static libraries inside the project
+set_target_properties(sfml-system PROPERTIES CXX_STANDARD 98 CXX_STANDARD_REQUIRED YES CXX_EXTENSIONS NO)
+set_target_properties(sfml-network PROPERTIES CXX_STANDARD 98 CXX_STANDARD_REQUIRED YES CXX_EXTENSIONS NO)
+set_target_properties(sfml-graphics PROPERTIES CXX_STANDARD 98 CXX_STANDARD_REQUIRED YES CXX_EXTENSIONS NO)
+set_target_properties(sfml-window PROPERTIES CXX_STANDARD 98 CXX_STANDARD_REQUIRED YES CXX_EXTENSIONS NO)
+set_target_properties(sfml-audio PROPERTIES CXX_STANDARD 98 CXX_STANDARD_REQUIRED YES CXX_EXTENSIONS NO)
+find_package(OpenGL REQUIRED)
+
+
 add_executable(${PROJECT_NAME} ${sources})
 #     Boost::assert -
 #     Boost::config -
@@ -219,7 +233,23 @@ add_executable(${PROJECT_NAME} ${sources})
 
 set_target_properties(${PROJECT_NAME} PROPERTIES CXX_STANDARD 17 OUTPUT_NAME "SecondInterprocess")
 
-target_link_libraries(${PROJECT_NAME} InterProcessLibraries Boost::interprocess)
+# target_link_libraries(${PROJECT_NAME} InterProcessLibraries)
+# Include custom library dependencies here
+if (WIN32)
+find_package(SFML REQUIRED COMPONENTS graphics window system audio network)
+target_link_libraries(${PROJECT_NAME} PRIVATE InterProcessLibraries sfml-system sfml-window sfml-graphics sfml-audio sfml-network opengl32
+  winmm Boost::interprocess rt pthread
+)
+endif (WIN32)
+
+if (UNIX AND NOT APPLE)
+target_link_libraries(${PROJECT_NAME} PRIVATE InterProcessLibraries X11 sfml-system sfml-window sfml-graphics sfml-audio sfml-network Boost::interprocess rt pthread)
+endif (UNIX AND NOT APPLE)
+
+if (APPLE)
+target_link_libraries(${PROJECT_NAME} PRIVATE InterProcessLibraries sfml-system sfml-window sfml-graphics sfml-audio sfml-network Boost::interprocess rt pthread)
+endif (APPLE)
+
 
 target_include_directories(
   ${PROJECT_NAME} PUBLIC $<BUILD_INTERFACE:${PROJECT_SOURCE_DIR}/../include>

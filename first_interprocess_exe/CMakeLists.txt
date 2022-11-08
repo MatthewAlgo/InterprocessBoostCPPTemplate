@@ -219,7 +219,8 @@ add_executable(${PROJECT_NAME} ${sources})
 
 set_target_properties(${PROJECT_NAME} PROPERTIES CXX_STANDARD 17 OUTPUT_NAME "FirstInterprocess")
 
-target_link_libraries(${PROJECT_NAME} InterProcessLibraries Boost::interprocess)
+# target_link_libraries(${PROJECT_NAME} InterProcessLibraries Boost::interprocess rt pthread)
+target_link_libraries(${PROJECT_NAME} Boost::interprocess rt pthread)
 
 target_include_directories(
   ${PROJECT_NAME} PUBLIC $<BUILD_INTERFACE:${PROJECT_SOURCE_DIR}/../include>
