@@ -71,22 +71,52 @@
 //   std::cout << std::dec << region2.get_size() << '\n';
 // }
 
-
 ///////// Example 3
 
-#include <boost/interprocess/shared_memory_object.hpp>
+#include <SQLiteCpp/SQLiteCpp.h>
+
 #include <boost/interprocess/mapped_region.hpp>
+#include <boost/interprocess/shared_memory_object.hpp>
 #include <iostream>
 
 using namespace boost::interprocess;
 
-int main()
-{
-  shared_memory_object shdmem{open_or_create, "Boost", read_write};
-  shdmem.truncate(1024);
-  
-  mapped_region region2{shdmem, read_write};
-  int *i2 = static_cast<int*>(region2.get_address());
-  std::cout << *i2 << '\n';
+int main() {
+
+  // shared_memory_object shdmem{open_or_create, "Boost", read_write};
+  // shdmem.truncate(1024);
+
+  // mapped_region region2{shdmem, read_write};
+  // int* i2 = static_cast<int*>(region2.get_address());
+  // std::cout << *i2 << '\n';
+
+  try {
+    // Open a database file
+    SQLite::Database db("words.db");
+    // If the database exists, we can just open it
+
+    if (db.tableExists("wordstable")) {
+      // Compile a SQL query, containing one parameter (index 1)
+      printf("Table exists\n");
+      SQLite::Statement query(db, "SELECT * FROM wordstable WHERE size > ?");
+
+      // Bind the integer value 6 to the first parameter of the SQL query
+      query.bind(1, 6);
+
+      // Loop to execute the query step by step, to get rows of result
+      while (query.executeStep()) {
+        // Demonstrate how to get some typed column value
+        int id = query.getColumn(0);
+        const char* value = query.getColumn(1);
+        int size = query.getColumn(2);
+
+        std::cout << "row: " << id << ", " << value << ", " << size << std::endl;
+      }
+    }else{
+      printf("Table does not exist\n");
+    }
+  } catch (std::exception& e) {
+    std::cout << "exception: " << e.what() << std::endl;
+  }
   // std::cin.get();
 }

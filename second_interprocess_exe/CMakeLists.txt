@@ -217,6 +217,32 @@ set_target_properties(sfml-window PROPERTIES CXX_STANDARD 98 CXX_STANDARD_REQUIR
 set_target_properties(sfml-audio PROPERTIES CXX_STANDARD 98 CXX_STANDARD_REQUIRED YES CXX_EXTENSIONS NO)
 find_package(OpenGL REQUIRED)
 
+# Add the library SRombauts/SQLiteCpp using CPM
+CPMAddPackage(
+    NAME SQLiteCpp
+    GITHUB_REPOSITORY SRombauts/SQLiteCpp
+    GIT_TAG 3.2.0
+    OPTIONS
+        "SQLITECPP_RUN_CPPLINT OFF"
+        "SQLITECPP_RUN_CPPLINT OFF"
+        "SQLITECPP_INTERNAL_SQLITE OFF"
+        "SQLITECPP_USE_LEGACY_STRUCT_INIT OFF"
+        "SQLITE_ENABLE_COLUMN_METADATA OFF"
+        "SQLITE_ENABLE_FTS3 OFF"
+        "SQLITE_ENABLE_FTS3_PARENTHESIS OFF"
+        "SQLITE_ENABLE_FTS4 OFF"
+        "SQLITE_ENABLE_FTS5 OFF"
+        "SQLITE_ENABLE_JSON1 OFF"
+        "SQLITE_ENABLE_RTREE OFF"
+        "SQLITE_ENABLE_STAT4 OFF"
+        "SQLITE_ENABLE_UPDATE_DELETE_LIMIT OFF"
+        "SQLITE_SOUNDEX OFF"
+        "SQLITE_USE_LEGACY_STRUCT OFF"
+        "SQLITECPP_BUILD_EXAMPLES OFF"
+        "SQLITECPP_BUILD_TESTS OFF"
+        "SQLITECPP_BUILD_SHARED OFF"
+        "SQLITECPP_BUILD_STATIC ON"
+)
 
 add_executable(${PROJECT_NAME} ${sources})
 #     Boost::assert -
@@ -238,16 +264,24 @@ set_target_properties(${PROJECT_NAME} PROPERTIES CXX_STANDARD 17 OUTPUT_NAME "Se
 if (WIN32)
 find_package(SFML REQUIRED COMPONENTS graphics window system audio network)
 target_link_libraries(${PROJECT_NAME} PRIVATE InterProcessLibraries sfml-system sfml-window sfml-graphics sfml-audio sfml-network opengl32
-  winmm Boost::interprocess rt pthread
+  winmm Boost::interprocess rt pthread SQLiteCpp
+  sqlite3
+  dl
 )
 endif (WIN32)
 
 if (UNIX AND NOT APPLE)
-target_link_libraries(${PROJECT_NAME} PRIVATE InterProcessLibraries X11 sfml-system sfml-window sfml-graphics sfml-audio sfml-network Boost::interprocess rt pthread)
+target_link_libraries(${PROJECT_NAME} PRIVATE InterProcessLibraries X11 sfml-system sfml-window sfml-graphics sfml-audio sfml-network Boost::interprocess rt pthread SQLiteCpp
+    sqlite3
+    dl
+)
 endif (UNIX AND NOT APPLE)
 
 if (APPLE)
-target_link_libraries(${PROJECT_NAME} PRIVATE InterProcessLibraries sfml-system sfml-window sfml-graphics sfml-audio sfml-network Boost::interprocess rt pthread)
+target_link_libraries(${PROJECT_NAME} PRIVATE InterProcessLibraries sfml-system sfml-window sfml-graphics sfml-audio sfml-network Boost::interprocess rt pthread SQLiteCpp
+    sqlite3
+    dl
+)
 endif (APPLE)
 
 
