@@ -1,3 +1,3 @@
-# WordleInfoTheory
+# InterprocessTemplateBoost
 
-A C++ application trying to solve wordle using information theory
+A C++ template used for interprocess communication that builds two executables sharing a block of memory.
